@@ -1,0 +1,1 @@
+﻿Tüm sistemlerde kullanabileceğiniz entityleriniz varsa (Appuser, AppRole gibi) burada tanımlayabilirsiniz.

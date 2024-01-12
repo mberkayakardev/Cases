@@ -1,0 +1,6 @@
+﻿Burada normal şartlar altında sizler Database işlemleri gerçekleştirebilirsiniz. 
+Ama ben bu süreçte Session üzerinden çalışan bir mekanizma yazdığımdan ötürü ilgili librarym boş
+İsteğe bağlı olarak ilgili Repositoryleri ve ORM Paketlerini kurarark süreci yönetebilirsiniz.
+
+Abstract Nesneler Abstract Klasörüne 
+Concrete Nesneler ise concrete klasörüne oluşturulabilir. 

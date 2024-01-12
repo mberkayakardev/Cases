@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.PersonelTakip.MVCUI", "AkarSoftware.PersonelTakip.MVCUI\AkarSoftware.PersonelTakip.MVCUI.csproj", "{9A7B361B-0CB9-4652-A6BA-AA04AA89E789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.PersonelTakip.Services", "AkarSoftware.PersonelTakip.Services\AkarSoftware.PersonelTakip.Services.csproj", "{52278D70-EF08-4865-806A-6D436F122B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.PersonelTakip.Core", "AkarSoftware.PersonelTakip.Core\AkarSoftware.PersonelTakip.Core.csproj", "{BCC75CBB-819F-4658-906D-D0DE50512167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.PersonelTakip.Entities", "AkarSoftware.PersonelTakip.Entities\AkarSoftware.PersonelTakip.Entities.csproj", "{FA3D9112-E9A0-45DD-BE8D-8B166729C2C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.PersonelTakip.Dtos", "AkarSoftware.PersonelTakip.Dtos\AkarSoftware.PersonelTakip.Dtos.csproj", "{5B749924-6A45-4F23-BD92-82BF2ECE9159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.PersonelTakip.Repository", "AkarSoftware.PersonelTakip.Repository\AkarSoftware.PersonelTakip.Repository.csproj", "{83A69516-36DE-4666-804C-CDFA79D9F7E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A7B361B-0CB9-4652-A6BA-AA04AA89E789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7B361B-0CB9-4652-A6BA-AA04AA89E789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7B361B-0CB9-4652-A6BA-AA04AA89E789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7B361B-0CB9-4652-A6BA-AA04AA89E789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52278D70-EF08-4865-806A-6D436F122B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52278D70-EF08-4865-806A-6D436F122B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52278D70-EF08-4865-806A-6D436F122B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52278D70-EF08-4865-806A-6D436F122B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC75CBB-819F-4658-906D-D0DE50512167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC75CBB-819F-4658-906D-D0DE50512167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC75CBB-819F-4658-906D-D0DE50512167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC75CBB-819F-4658-906D-D0DE50512167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3D9112-E9A0-45DD-BE8D-8B166729C2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3D9112-E9A0-45DD-BE8D-8B166729C2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3D9112-E9A0-45DD-BE8D-8B166729C2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3D9112-E9A0-45DD-BE8D-8B166729C2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B749924-6A45-4F23-BD92-82BF2ECE9159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B749924-6A45-4F23-BD92-82BF2ECE9159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B749924-6A45-4F23-BD92-82BF2ECE9159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B749924-6A45-4F23-BD92-82BF2ECE9159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A69516-36DE-4666-804C-CDFA79D9F7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A69516-36DE-4666-804C-CDFA79D9F7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A69516-36DE-4666-804C-CDFA79D9F7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A69516-36DE-4666-804C-CDFA79D9F7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1814BED0-EFB5-47B8-99C3-950276FFA5AA}
+	EndGlobalSection
+EndGlobal

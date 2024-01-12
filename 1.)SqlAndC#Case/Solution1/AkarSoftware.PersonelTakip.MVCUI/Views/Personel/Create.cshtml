@@ -1,0 +1,102 @@
+﻿@model PersonelAddDto
+
+<div class="row">
+    <div class="col-12">
+        <form asp-action="Create" id="MyForm" asp-controller="Personel" method="post">
+            <h2 class="text-center"> Personel Kaydı Oluştur </h2>
+            <hr>
+            <br />
+
+            <div class="row">
+                <div class=" col-6">
+                    <label asp-for="@Model.Name">Ad </label>
+                    <input asp-for="@Model.Name" class="form-control" placeholder="Ad">
+                </div>
+                <div class="col-6">
+                    <label asp-for="@Model.SurName">Soyad</label>
+                    <input asp-for="@Model.SurName" class="form-control" placeholder="Soyad">
+                </div>
+            </div>
+
+            <hr />
+            <div class="col-12">
+                <div class="form-group">
+                    <label asp-for="@Model.Adress">Address</label>
+                    <input asp-for="@Model.Adress" class="form-control" placeholder="Bayrampaşa / istanbul ....">
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.Mail">Email </label>
+                    <input asp-for="@Model.Mail" class="form-control" placeholder="for ex. berkayakar@gmail.com">
+                </div>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <button onclick="Kaydet(event)" type="submit" class="btn btn-success">Kaydet</button>
+        </form>
+    </div>
+</div>
+
+
+@section script {
+    <script>
+        function Kaydet(e) {
+
+            e.preventDefault();
+
+            Swal.fire({
+                title: "İlgili kaydı oluşturmak istediğinize Emin misiniz ? ",
+                icon: "question",
+                showCancelButton: true
+            }).then(result => {
+                if (result.isConfirmed) {
+                    var AddUrl = '@Url.ActionLink("Create", "Personel")'
+                    var PersonelCreateDto = {
+                        Name: $("input[id=Name]").val(),
+                        SurName: $("input[id=SurName]").val(),
+                        Mail: $("input[id=Mail]").val(),
+                        Adress: $("input[id=Adress]").val()
+                    }
+
+                    var jsonData = JSON.stringify(PersonelCreateDto)
+                    console.log(jsonData)
+
+
+                    Swal.fire({
+                        title: 'Bekleyin',
+                        html: 'İşleminiz gerçekleştiriliyor...',
+                        allowOutsideClick: false,
+                        onBeforeOpen: () => {
+                            Swal.showLoading();
+                        }
+                    });
+
+                    console.log(AddUrl);
+
+                    $.ajax({
+                        url: AddUrl,
+                        type: "POST",
+                        contentType: "application/json;charset=utf-8",
+                        dataType: "json",
+                        data: jsonData,
+                        success: function (data) {
+                            if (data.StatusCode = 204) {
+                                Swal.fire(data.Message);
+                                window.location.href = '@(Url.Action("Index", "Home"))';
+                            }
+                            else {
+                                Swal.fire(data.Message);
+                            }
+                        },
+                        error: function () {
+                            toast.error("Ekleme esnasında bir hata Meydana geldi.")
+                        }
+
+                    });
+
+                }
+            });
+        }
+    </script>
+
+}

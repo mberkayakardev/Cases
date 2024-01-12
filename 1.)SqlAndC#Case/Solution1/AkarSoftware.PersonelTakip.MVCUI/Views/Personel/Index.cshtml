@@ -1,0 +1,105 @@
+﻿@section style {
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" />
+}
+
+<div class="row mt-2">
+    <div class="col-10">
+        <h2>Personeller : </h2>
+    </div>
+    <div class="col-2 text-right">
+        <a asp-controller="Personel" asp-action="Create" class="btn btn-success"> Yeni Personel Oluştur</a>
+    </div>
+    <hr />
+</div>
+
+<br />
+
+<div class="row">
+    <div class="col-12">
+        <div class="p-4 border rounded">
+            <table id="tblData" class="table table-striped table-dark table-bordered" style="width:100%">
+                <thead>
+                    <tr>
+                        <th scope="col">Personel id</th>
+                        <th scope="col">Ad </th>
+                        <th scope="col">Soyad </th>
+                        <th scope="col">Adress</th>
+                        <th scope="col">Mail Adresi </th>
+                        <th scope="col"> </th>
+                    </tr>
+                </thead>
+
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+
+@section script {
+    <script src="//cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        var dataTable;
+
+        var js = jQuery.noConflict(true);
+        js(document).ready(function () {
+            loadData();
+
+        });
+
+
+        function loadData() {
+            $.ajax({
+                type: "GET",
+                url: '@Url.Action("GetAllPersons", "Personel")',
+                success: function (data) { 
+                if (data.statusCode === 200) {
+                //             $.each(data, function (key, value) {
+                //                 empdata.push([value.Id, value.Name, value.SurName, value.Mail, value.Adress])
+                //             });
+                }
+
+                //         
+
+                //         }
+                //     },
+                //     error: function () {
+                //         toast.error("Ekleme esnasında bir hata Meydana geldi.")
+                //     }
+
+                // });
+
+
+
+            }
+
+        // function Delete(url) {
+        //     swal({
+        //         title: "Are you sure you want to Delete?",
+        //         text: "You will not be able to restore the data!",
+        //         icon: "warning",
+        //         buttons: true,
+        //         dangerMode: true
+        //     }).then((willDelete) => {
+        //         if (willDelete) {
+        //             $.ajax({
+        //                 type: "DELETE",
+        //                 url: url,
+        //                 success: function (data) {
+        //                     if (data.success) {
+        //                         toastr.success(data.message);
+        //                         dataTable.ajax.reload();
+        //                     }
+        //                     else {
+        //                         toastr.error(data.message);
+        //                     }
+        //                 }
+        //             });
+        //         }
+        //     });
+        // }
+
+    </script>
+}

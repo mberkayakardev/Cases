@@ -1,0 +1,4 @@
+﻿Burada isteğinize bağlı olarak result sınıfları Resul ve DataResult sınıflarından kalıtım alınacak
+bir şekilde ilgili çoklama gerçekleştirilebilir (successresoult, errorresult, ....) gibi ama 
+ben burada 2 tür kullandım costume result diye bir klasör açarak ilgili result tanımlamalarınızı gerçekleştirebilirsiniz.
+

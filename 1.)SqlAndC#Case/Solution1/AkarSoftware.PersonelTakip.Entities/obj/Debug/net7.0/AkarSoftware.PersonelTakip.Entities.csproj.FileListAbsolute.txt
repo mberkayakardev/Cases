@@ -1,0 +1,15 @@
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\bin\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.deps.json
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\bin\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\bin\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.pdb
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\bin\Debug\net7.0\AkarSoftware.PersonelTakip.Core.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\bin\Debug\net7.0\AkarSoftware.PersonelTakip.Core.pdb
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.csproj.AssemblyReference.cache
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.AssemblyInfoInputs.cache
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.AssemblyInfo.cs
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.csproj.CoreCompileInputs.cache
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.csproj.CopyComplete
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\refint\AkarSoftware.PersonelTakip.Entities.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.pdb
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\ref\AkarSoftware.PersonelTakip.Entities.dll

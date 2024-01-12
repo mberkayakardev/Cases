@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "+EFmbKHW+bJZxiKZkSNoRaghVAqCT0Msy/8ZwdcH19Y=",
+  "Source": "AkarSoftware.PersonelTakip.MVCUI",
+  "BasePath": "_content/AkarSoftware.PersonelTakip.MVCUI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AkarSoftware.PersonelTakip.MVCUI\\wwwroot",
+      "Source": "AkarSoftware.PersonelTakip.MVCUI",
+      "ContentRoot": "D:\\Github\\Cases\\1.)SqlAndC#Case\\Solution1\\AkarSoftware.PersonelTakip.MVCUI\\wwwroot\\",
+      "BasePath": "_content/AkarSoftware.PersonelTakip.MVCUI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Github\\Cases\\1.)SqlAndC#Case\\Solution1\\AkarSoftware.PersonelTakip.MVCUI\\wwwroot\\Themes\\images\\Logo.png",
+      "SourceId": "AkarSoftware.PersonelTakip.MVCUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\Cases\\1.)SqlAndC#Case\\Solution1\\AkarSoftware.PersonelTakip.MVCUI\\wwwroot\\",
+      "BasePath": "_content/AkarSoftware.PersonelTakip.MVCUI",
+      "RelativePath": "Themes/images/Logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Themes\\images\\Logo.png"
+    }
+  ]
+}

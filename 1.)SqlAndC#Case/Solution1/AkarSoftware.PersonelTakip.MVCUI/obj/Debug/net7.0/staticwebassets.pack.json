@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Github\\Cases\\1.)SqlAndC#Case\\Solution1\\AkarSoftware.PersonelTakip.MVCUI\\wwwroot\\Themes\\images\\Logo.png",
+      "PackagePath": "staticwebassets\\Themes\\images\\Logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AkarSoftware.PersonelTakip.MVCUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AkarSoftware.PersonelTakip.MVCUI.props",
+      "PackagePath": "build\\AkarSoftware.PersonelTakip.MVCUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AkarSoftware.PersonelTakip.MVCUI.props",
+      "PackagePath": "buildMultiTargeting\\AkarSoftware.PersonelTakip.MVCUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AkarSoftware.PersonelTakip.MVCUI.props",
+      "PackagePath": "buildTransitive\\AkarSoftware.PersonelTakip.MVCUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
