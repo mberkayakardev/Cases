@@ -1,4 +1,6 @@
 ﻿using AkarSoftware.PersonelTakip.Services.Concrete.DependencyResolves.MicrosoftIOC;
+using AspNetCoreHero.ToastNotification;
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using Microsoft.Extensions.FileProviders;
 
 
@@ -7,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 #region Services
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddCostumeDependencies();
+builder.Services.AddNotyf(config => { config.DurationInSeconds = 10; config.IsDismissable = true; config.Position = NotyfPosition.BottomRight; });
 #endregion
 
 

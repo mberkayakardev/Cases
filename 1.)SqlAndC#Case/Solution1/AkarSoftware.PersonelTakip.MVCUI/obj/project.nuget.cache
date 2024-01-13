@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nT0wmhZIRM0W9zcqhK586JOLklB+RwpZOCQcyNzWklbDEvgF6cFDIcujOc2n0l/k93+aOBkR2HXnshtIhIq/NA==",
+  "dgSpecHash": "650ymNLQ0Pwt3j2ZAn8QaDmrbjSE5/8JUAyiNfLn6XRFuRpX/XfRrobRMIr5dCB76SpjPlV7xV1gJQRr5fzESw==",
   "success": true,
   "projectFilePath": "D:\\Github\\Cases\\1.)SqlAndC#Case\\Solution1\\AkarSoftware.PersonelTakip.MVCUI\\AkarSoftware.PersonelTakip.MVCUI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\documentformat.openxml\\3.0.1\\documentformat.openxml.3.0.1.nupkg.sha512",

@@ -8,8 +8,7 @@ namespace AkarSoftware.PersonelTakip.Services.Abstract
     {
         Task<JsonResponse<PersonelAddDto>> AddPersonelAjax(PersonelAddDto Dto);
         Task<JsonResponse<List<PersonelListDto>>> GetAllPersonAjax();
-        Task<IDataResults<List<PersonelListDto>>> GetAllPersons();
-        Task<byte[]> GenerateAllPersonelExcelFile();
+        Task<byte[]> GenerateAllPersonelExcelFile(List<PersonelListDto> dto);
 
 
     }

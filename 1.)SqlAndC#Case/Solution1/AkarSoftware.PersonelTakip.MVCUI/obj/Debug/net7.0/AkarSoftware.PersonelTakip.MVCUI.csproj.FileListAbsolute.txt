@@ -380,3 +380,5 @@ D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\obj\D
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\Debug\net7.0\DocumentFormat.OpenXml.Framework.dll
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\Debug\net7.0\System.IO.Packaging.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.Views.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.dll

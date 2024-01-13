@@ -36,6 +36,7 @@
       "AkarSoftware.PersonelTakip.MVCUI/1.0.0": {
         "dependencies": {
           "AkarSoftware.PersonelTakip.Services": "1.0.0",
+          "AspNetCoreHero.ToastNotification": "1.1.0",
           "DocumentFormat.OpenXml": "3.0.1",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.15",
           "Microsoft.AspNetCore.Antiforgery": "7.0.0.0",
@@ -340,6 +341,25 @@
         },
         "compile": {
           "AkarSoftware.PersonelTakip.MVCUI.dll": {}
+        }
+      },
+      "AspNetCoreHero.ToastNotification/1.1.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/net5.0/AspNetCoreHero.ToastNotification.Views.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          },
+          "lib/net5.0/AspNetCoreHero.ToastNotification.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/AspNetCoreHero.ToastNotification.Views.dll": {},
+          "lib/net5.0/AspNetCoreHero.ToastNotification.dll": {}
         }
       },
       "AutoMapper/12.0.1": {
@@ -2670,6 +2690,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AspNetCoreHero.ToastNotification/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bCAYeD+b2pRelcOrHMNtYGVtRq+J2u+SAaND33v3u6qZCatHf4XSZOEPhBfCKJAjMGvsggtPKaNFnrv4VhwOfA==",
+      "path": "aspnetcorehero.toastnotification/1.1.0",
+      "hashPath": "aspnetcorehero.toastnotification.1.1.0.nupkg.sha512"
     },
     "AutoMapper/12.0.1": {
       "type": "package",

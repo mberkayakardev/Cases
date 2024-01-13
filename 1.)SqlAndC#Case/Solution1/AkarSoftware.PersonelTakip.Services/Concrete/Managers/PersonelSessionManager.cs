@@ -1,11 +1,16 @@
 ﻿using AkarSoftware.PersonelTakip.Core.Extentions.FluentValidation.Concrete;
 using AkarSoftware.PersonelTakip.Core.Utilities.Response.ComplexTypes;
 using AkarSoftware.PersonelTakip.Core.Utilities.Result.Abstract;
+using AkarSoftware.PersonelTakip.Core.Utilities.Result.ComplexTypes;
+using AkarSoftware.PersonelTakip.Core.Utilities.Result.Concrete;
 using AkarSoftware.PersonelTakip.Dtos.Concrete.Personel;
 using AkarSoftware.PersonelTakip.Entities.Concrete;
 using AkarSoftware.PersonelTakip.Services.Abstract;
 using AkarSoftware.PersonelTakip.Services.Concrete.ConstVerables;
 using AutoMapper;
+using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Spreadsheet;
 using FluentValidation;
 using Microsoft.AspNetCore.Http;
 
@@ -50,15 +55,57 @@ namespace AkarSoftware.PersonelTakip.Services.Concrete.Managers
             }
             return JsonResponse<List<PersonelListDto>>.FailResult(Messages.Status.Notfound, 404);
         }
-
-        public Task<IDataResults<List<PersonelListDto>>> GetAllPersons()
+ 
+        public async Task<byte[]> GenerateAllPersonelExcelFile(List<PersonelListDto> dto)
         {
-            throw new NotImplementedException();
+
+            using (MemoryStream memoryStream = new MemoryStream())
+            {
+                using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Create(memoryStream, SpreadsheetDocumentType.Workbook))
+                {
+                    WorkbookPart workbookPart = spreadsheetDocument.AddWorkbookPart();
+                    workbookPart.Workbook = new Workbook();
+
+                    Sheets sheets = spreadsheetDocument.WorkbookPart.Workbook.AppendChild(new Sheets());
+                    WorksheetPart worksheetPart = workbookPart.AddNewPart<WorksheetPart>();
+                    Sheet sheet = new Sheet() { Id = spreadsheetDocument.WorkbookPart.GetIdOfPart(worksheetPart), SheetId = 1, Name = "PersonelListesi" };
+                    sheets.Append(sheet);
+
+                    Worksheet worksheet = new Worksheet();
+                    SheetData sheetData = new SheetData();
+                    worksheet.Append(sheetData);
+
+                    // Başlık satırını ekleyin
+                    Row headerRow = new Row();
+                    headerRow.Append(CreateCell("ID"));
+                    headerRow.Append(CreateCell("Adı"));
+                    headerRow.Append(CreateCell("Soyadı"));
+                    headerRow.Append(CreateCell("Email"));
+                    headerRow.Append(CreateCell("Adres"));
+
+                    sheetData.AppendChild(headerRow);
+
+                    foreach (var personel in dto)
+                    {
+                        Row dataRow = new Row();
+                        dataRow.Append(CreateCell(personel.Id.ToString()));
+                        dataRow.Append(CreateCell(personel.Name));
+                        dataRow.Append(CreateCell(personel.SurName));
+                        dataRow.Append(CreateCell(personel.Mail));
+                        dataRow.Append(CreateCell(personel.Adress));
+                        sheetData.AppendChild(dataRow);
+                    }
+
+                    worksheetPart.Worksheet = worksheet;
+                }
+
+                return memoryStream.ToArray();
+            }
         }
 
-        public Task<byte[]> GenerateAllPersonelExcelFile()
+        private Cell CreateCell(string text)
         {
-            throw new NotImplementedException();
+            return new Cell() { DataType = CellValues.String, CellValue = new CellValue(text) };
         }
     }
 }
