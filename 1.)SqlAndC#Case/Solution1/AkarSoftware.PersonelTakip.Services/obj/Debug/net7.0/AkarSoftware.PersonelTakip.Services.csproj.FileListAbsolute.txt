@@ -19,3 +19,4 @@ D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Services\bi
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Services\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Services.csproj.CopyComplete
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Services\bin\Debug\net7.0\AkarSoftware.PersonelTakip.Dtos.dll
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Services\bin\Debug\net7.0\AkarSoftware.PersonelTakip.Dtos.pdb
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Services\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Services.sourcelink.json

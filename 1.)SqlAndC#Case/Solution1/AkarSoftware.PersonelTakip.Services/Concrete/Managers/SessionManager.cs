@@ -31,9 +31,7 @@ namespace AkarSoftware.PersonelTakip.Services.Concrete.Managers
         }
 
 
-
         #region Test Edilecek 
-
         public void RemoveItemInList<T>(string key, T item)
         {
             var itemlist = httpContextAccessor.HttpContext.Session.GetObject<List<T>>(key);
@@ -46,8 +44,6 @@ namespace AkarSoftware.PersonelTakip.Services.Concrete.Managers
         {
             throw new NotImplementedException();
         }
-
         #endregion
-
     }
 }

@@ -81,8 +81,16 @@
                         data: jsonData,
                         success: function (data) {
                             if (data.StatusCode = 204) {
-                                Swal.fire(data.Message);
-                                window.location.href = '@(Url.Action("Index", "Home"))';
+
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Başarılı!',
+                                    text: 'İşlem başarıyla tamamlandı!',
+                                    confirmButtonText: 'Tamam'
+                                }).then((result) => {
+                                    window.location.href = '@(Url.Action("Index", "Home"))';
+
+                                });
                             }
                             else {
                                 Swal.fire(data.Message);

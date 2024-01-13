@@ -376,3 +376,7 @@ D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\D
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\Debug\net7.0\AkarSoftware.PersonelTakip.Dtos.pdb
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\Debug\net7.0\AutoMapper.dll
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\obj\Debug\net7.0\AkarSoftware.PersonelTakip.MVCUI.sourcelink.json
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\Debug\net7.0\DocumentFormat.OpenXml.Framework.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.MVCUI\bin\Debug\net7.0\System.IO.Packaging.dll

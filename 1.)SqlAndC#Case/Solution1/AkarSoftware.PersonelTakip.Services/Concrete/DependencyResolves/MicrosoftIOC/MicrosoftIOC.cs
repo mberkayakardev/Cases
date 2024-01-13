@@ -18,11 +18,6 @@ namespace AkarSoftware.PersonelTakip.Services.Concrete.DependencyResolves.Micros
             AddMappingConfiguration(services);
 
             AddValidationConfiguration(services);
-
-
-
-
-
         }
 
         /// <summary>
@@ -36,20 +31,16 @@ namespace AkarSoftware.PersonelTakip.Services.Concrete.DependencyResolves.Micros
         /// <summary>
         /// Uygulamamızdaki Eklenmesi gereken Service ler burada tanımlanacaktır. 
         /// </summary>
-        /// <param name="services"></param>
         private static void AddServices(IServiceCollection services)
         {
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<IPersonelSessionService, PersonelSessionManager>();
             services.AddScoped<ISessionService, SessionManager>(); // Session için business işlemleri buradan gerçekleşecek
-
-
         }
 
         private static void AddMappingConfiguration(IServiceCollection services)
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
-
         }
 
         private static void AddValidationConfiguration(IServiceCollection services)

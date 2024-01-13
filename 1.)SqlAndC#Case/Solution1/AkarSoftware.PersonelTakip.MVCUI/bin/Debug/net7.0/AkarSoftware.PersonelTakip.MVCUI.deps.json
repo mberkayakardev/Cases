@@ -36,6 +36,7 @@
       "AkarSoftware.PersonelTakip.MVCUI/1.0.0": {
         "dependencies": {
           "AkarSoftware.PersonelTakip.Services": "1.0.0",
+          "DocumentFormat.OpenXml": "3.0.1",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.15",
           "Microsoft.AspNetCore.Antiforgery": "7.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "7.0.0.0",
@@ -368,6 +369,34 @@
         },
         "compile": {
           "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml/3.0.1": {
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml.Framework/3.0.1": {
+        "dependencies": {
+          "System.IO.Packaging": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DocumentFormat.OpenXml.Framework.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/DocumentFormat.OpenXml.Framework.dll": {}
         }
       },
       "FluentValidation/11.9.0": {
@@ -726,6 +755,17 @@
       },
       "System.Buffers/4.5.0": {},
       "System.Collections.Immutable/5.0.0": {},
+      "System.IO.Packaging/8.0.0": {
+        "runtime": {
+          "lib/net7.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "compile": {
+          "lib/net7.0/System.IO.Packaging.dll": {}
+        }
+      },
       "System.Memory/4.5.4": {},
       "System.Reflection.Metadata/5.0.0": {},
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
@@ -833,6 +873,7 @@
           "AkarSoftware.PersonelTakip.Repository": "1.0.0",
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "DocumentFormat.OpenXml": "3.0.1",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
           "Microsoft.AspNetCore.Session": "2.2.0",
@@ -2644,6 +2685,20 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/12.0.1",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512"
     },
+    "DocumentFormat.OpenXml/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DCK1cwFUJ1FGGyYyo++HWl9H1RkqMWIu+FGOLRy6E4L4y0/HIhlJ7N/n1HKboFfOwKn1cMBRxt1RCuDbIEy5YQ==",
+      "path": "documentformat.openxml/3.0.1",
+      "hashPath": "documentformat.openxml.3.0.1.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXml.Framework/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ifyI7OW7sggz7LQMIAD2aUsY/zVUON9QaHrpZ4MK33iVMeHlTG4uhUE2aLWb31nry+LCs2ALDAwf8OfUJGjgBg==",
+      "path": "documentformat.openxml.framework/3.0.1",
+      "hashPath": "documentformat.openxml.framework.3.0.1.nupkg.sha512"
+    },
     "FluentValidation/11.9.0": {
       "type": "package",
       "serviceable": true,
@@ -2909,6 +2964,13 @@
       "sha512": "sha512-FXkLXiK0sVVewcso0imKQoOxjoPAj42R8HtjjbSjVPAzwDfzoyoznWxgA3c38LDbN9SJux1xXoXYAhz98j7r2g==",
       "path": "system.collections.immutable/5.0.0",
       "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
+    },
+    "System.IO.Packaging/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8g1V4YRpdGAxFcK8v9OjuMdIOJSpF30Zb1JGicwVZhly3I994WFyBdV6mQEo8d3T+URQe55/M0U0eIH0Hts1bg==",
+      "path": "system.io.packaging/8.0.0",
+      "hashPath": "system.io.packaging.8.0.0.nupkg.sha512"
     },
     "System.Memory/4.5.4": {
       "type": "package",

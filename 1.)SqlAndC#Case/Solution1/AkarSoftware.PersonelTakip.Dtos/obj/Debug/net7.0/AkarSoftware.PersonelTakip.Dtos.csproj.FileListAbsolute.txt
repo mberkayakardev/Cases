@@ -13,3 +13,4 @@ D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Dtos\obj\De
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Dtos\obj\Debug\net7.0\refint\AkarSoftware.PersonelTakip.Dtos.dll
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Dtos\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Dtos.pdb
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Dtos\obj\Debug\net7.0\ref\AkarSoftware.PersonelTakip.Dtos.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Dtos\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Dtos.sourcelink.json

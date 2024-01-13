@@ -1,5 +1,6 @@
 ﻿using AkarSoftware.PersonelTakip.Core.Extentions.FluentValidation.Concrete;
 using AkarSoftware.PersonelTakip.Core.Utilities.Response.ComplexTypes;
+using AkarSoftware.PersonelTakip.Core.Utilities.Result.Abstract;
 using AkarSoftware.PersonelTakip.Dtos.Concrete.Personel;
 using AkarSoftware.PersonelTakip.Entities.Concrete;
 using AkarSoftware.PersonelTakip.Services.Abstract;
@@ -26,8 +27,6 @@ namespace AkarSoftware.PersonelTakip.Services.Concrete.Managers
             _AddDtoValidator = validatorAddDto;
         }
 
-      
-
         public async Task<JsonResponse<PersonelAddDto>> AddPersonelAjax(PersonelAddDto Dto)
         {
             var validationResult = _AddDtoValidator.Validate(Dto);
@@ -50,6 +49,16 @@ namespace AkarSoftware.PersonelTakip.Services.Concrete.Managers
                 return JsonResponse<List<PersonelListDto>>.SuccessResult( 200  , mappingData);
             }
             return JsonResponse<List<PersonelListDto>>.FailResult(Messages.Status.Notfound, 404);
+        }
+
+        public Task<IDataResults<List<PersonelListDto>>> GetAllPersons()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<byte[]> GenerateAllPersonelExcelFile()
+        {
+            throw new NotImplementedException();
         }
     }
 }

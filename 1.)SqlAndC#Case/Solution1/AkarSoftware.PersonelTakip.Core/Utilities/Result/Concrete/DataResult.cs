@@ -5,7 +5,7 @@ using AkarSoftware.PersonelTakip.Core.Utilities.Result.ComplexTypes;
 
 namespace AkarSoftware.PersonelTakip.Core.Utilities.Result.Concrete
 {
-    public class DataResult<T> : Result, IDataResults<T> where T : IDto
+    public class DataResult<T> : Result, IDataResults<T> 
     {
         public T Data { get; set; }
         public DataResult(T data, ResultStatus status, string Messages) : base(status, Messages)

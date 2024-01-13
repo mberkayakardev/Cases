@@ -2,7 +2,7 @@
 
 namespace AkarSoftware.PersonelTakip.Core.Utilities.Result.Abstract
 {
-    public interface IDataResults<T> : IResult where T : IDto 
+    public interface IDataResults<T> : IResult 
     {
         T Data { get; }
     }

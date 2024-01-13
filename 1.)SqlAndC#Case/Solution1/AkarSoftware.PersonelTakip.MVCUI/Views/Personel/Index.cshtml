@@ -1,5 +1,5 @@
 ﻿@section style {
-    <link rel="stylesheet" href="//cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
 }
 
 <div class="row mt-2">
@@ -13,6 +13,7 @@
 </div>
 
 <br />
+<a class="btn btn-success"> Excell Aktarım </a>
 
 <div class="row">
     <div class="col-12">
@@ -25,7 +26,6 @@
                         <th scope="col">Soyad </th>
                         <th scope="col">Adress</th>
                         <th scope="col">Mail Adresi </th>
-                        <th scope="col"> </th>
                     </tr>
                 </thead>
 
@@ -38,68 +38,48 @@
 
 
 @section script {
-    <script src="//cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            let empdata = [];
 
-    <script>
-        var dataTable;
-
-        var js = jQuery.noConflict(true);
-        js(document).ready(function () {
-            loadData();
-
-        });
-
-
-        function loadData() {
             $.ajax({
-                type: "GET",
-                url: '@Url.Action("GetAllPersons", "Personel")',
-                success: function (data) { 
-                if (data.statusCode === 200) {
-                //             $.each(data, function (key, value) {
-                //                 empdata.push([value.Id, value.Name, value.SurName, value.Mail, value.Adress])
-                //             });
+                type: 'GET',
+                url: '@Url.Action("GetAllPersonsWithAjax", "Personel")',
+                dataType: 'json',
+                success: function (data) {
+                    $.each(data.data, function (index, value) {
+                        var object = {
+                            id: value.id,
+                            name: value.name,
+                            surName: value.surName,
+                            adress: value.adress,
+                            mail: value.mail
+                        };
+                        empdata.push(object);
+                    });
+
+                    console.log(empdata); // Veri çekme işlemi tamamlandıktan sonra log'u buraya taşıdık
+
+                    // DataTable'ın document.ready fonksiyonu içinde başlatıldığından emin olun
+                    $('#tblData').DataTable({
+                        data: empdata,
+                        columns: [
+                            { data: 'id' },
+                            { data: 'name' },
+                            { data: 'surName' },
+                            { data: 'adress' },
+                            { data: 'mail' },
+
+                        ]
+                    });
+                },
+                error: function (error) {
+                    console.log(error);
                 }
-
-                //         
-
-                //         }
-                //     },
-                //     error: function () {
-                //         toast.error("Ekleme esnasında bir hata Meydana geldi.")
-                //     }
-
-                // });
-
-
-
-            }
-
-        // function Delete(url) {
-        //     swal({
-        //         title: "Are you sure you want to Delete?",
-        //         text: "You will not be able to restore the data!",
-        //         icon: "warning",
-        //         buttons: true,
-        //         dangerMode: true
-        //     }).then((willDelete) => {
-        //         if (willDelete) {
-        //             $.ajax({
-        //                 type: "DELETE",
-        //                 url: url,
-        //                 success: function (data) {
-        //                     if (data.success) {
-        //                         toastr.success(data.message);
-        //                         dataTable.ajax.reload();
-        //                     }
-        //                     else {
-        //                         toastr.error(data.message);
-        //                     }
-        //                 }
-        //             });
-        //         }
-        //     });
-        // }
-
+            });
+        });
     </script>
 }
+
+

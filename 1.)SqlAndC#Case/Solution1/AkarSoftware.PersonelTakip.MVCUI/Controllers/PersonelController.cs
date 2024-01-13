@@ -36,5 +36,19 @@ namespace AkarSoftware.PersonelTakip.MVCUI.Controllers
             var result = await _personelSessionService.GetAllPersonAjax();
             return this.CreateActionResult(result);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllPersonsWithAjax()
+        {
+            var result = await _personelSessionService.GetAllPersonAjax();
+            return this.CreateActionResult(result);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> CreatePersonsXML()
+        {
+
+            return View();
+        }
     }
 }

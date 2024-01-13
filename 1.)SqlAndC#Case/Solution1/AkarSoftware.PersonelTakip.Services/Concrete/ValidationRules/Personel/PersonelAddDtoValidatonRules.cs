@@ -12,8 +12,6 @@ namespace AkarSoftware.PersonelTakip.Services.Concrete.ValidationRules.Personel
             RuleFor(x => x.Mail).NotEmpty().WithMessage("Mail alanı boş olamaz");
             RuleFor(x => x.Name).NotEmpty().WithMessage("Personel Ad alanı boş olamaz");
             
-
-
         }
 
     }

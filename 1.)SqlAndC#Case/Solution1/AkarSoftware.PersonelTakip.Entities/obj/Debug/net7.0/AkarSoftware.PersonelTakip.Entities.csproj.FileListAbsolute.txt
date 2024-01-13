@@ -13,3 +13,4 @@ D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\ob
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\refint\AkarSoftware.PersonelTakip.Entities.dll
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.pdb
 D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\ref\AkarSoftware.PersonelTakip.Entities.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Entities\obj\Debug\net7.0\AkarSoftware.PersonelTakip.Entities.sourcelink.json
