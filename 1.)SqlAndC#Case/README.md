@@ -29,7 +29,10 @@
 <!-- ABOUT THE PROJECT -->
 <h2 id="Proje-Hakkinda"> Proje Hakkında </h2>
 
-<img src ="https://github.com/mberkayakardev/AdvertiesmentApp/blob/master/db.png?raw=true" >
+<img src ="https://github.com/mberkayakardev/Cases/blob/master/1.)SqlAndC%23Case/1.png?raw=true" >
+<img src ="https://github.com/mberkayakardev/Cases/blob/master/1.)SqlAndC%23Case/2.png?raw=true" >
+<img src ="https://github.com/mberkayakardev/Cases/blob/master/1.)SqlAndC%23Case/3.png?raw=true" >
+<img src ="https://github.com/mberkayakardev/Cases/blob/master/1.)SqlAndC%23Case/4.png?raw=true" >
 
 <ol>
     <li> İlgili personel kayıtlarının ajax ile birlikte gerçekleştiği, personel listesinin exel ile export olarak dışarı alınabildiği bir mekanizma kurgulanmıştır </li>
@@ -43,6 +46,7 @@
 
 * .Net 7.0
 * N-Tier Achitecture - (Çok katmanlı mimari)
+* Session 
 * MVC
 * AutoMapper
 * Fluent Validaton
@@ -52,3 +56,4 @@
 * Bootstrap 
 * Ajax
 * Sweetalert
+ 
