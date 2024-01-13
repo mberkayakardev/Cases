@@ -1,0 +1,13 @@
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\bin\Release\net7.0\AkarSoftware.PersonelTakip.Core.deps.json
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\bin\Release\net7.0\AkarSoftware.PersonelTakip.Core.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\bin\Release\net7.0\AkarSoftware.PersonelTakip.Core.pdb
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\obj\Release\net7.0\AkarSoftware.PersonelTakip.Core.csproj.AssemblyReference.cache
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\obj\Release\net7.0\AkarSoftware.PersonelTakip.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\obj\Release\net7.0\AkarSoftware.PersonelTakip.Core.AssemblyInfoInputs.cache
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\obj\Release\net7.0\AkarSoftware.PersonelTakip.Core.AssemblyInfo.cs
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\obj\Release\net7.0\AkarSoftware.PersonelTakip.Core.csproj.CoreCompileInputs.cache
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\obj\Release\net7.0\AkarSoftware.PersonelTakip.Core.sourcelink.json
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\obj\Release\net7.0\AkarSoftware.PersonelTakip.Core.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\obj\Release\net7.0\refint\AkarSoftware.PersonelTakip.Core.dll
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\obj\Release\net7.0\AkarSoftware.PersonelTakip.Core.pdb
+D:\Github\Cases\1.)SqlAndC#Case\Solution1\AkarSoftware.PersonelTakip.Core\obj\Release\net7.0\ref\AkarSoftware.PersonelTakip.Core.dll

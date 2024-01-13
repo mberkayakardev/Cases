@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AkarSoftware.PersonelTakip.MVCUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d425016d7912b6d0edc23edca403b0602979ece")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a56c14e24e1c50596b45cc10871cb7f58dd256ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("AkarSoftware.PersonelTakip.MVCUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AkarSoftware.PersonelTakip.MVCUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

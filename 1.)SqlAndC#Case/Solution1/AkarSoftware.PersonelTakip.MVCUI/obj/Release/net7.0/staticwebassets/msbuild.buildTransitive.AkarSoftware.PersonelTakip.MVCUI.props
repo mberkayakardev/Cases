@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AkarSoftware.PersonelTakip.MVCUI.props" />
+</Project>

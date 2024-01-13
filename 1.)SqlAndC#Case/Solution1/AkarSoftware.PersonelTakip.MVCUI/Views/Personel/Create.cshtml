@@ -59,8 +59,6 @@
                     }
 
                     var jsonData = JSON.stringify(PersonelCreateDto)
-                    console.log(jsonData)
-
 
                     Swal.fire({
                         title: 'Bekleyin',
@@ -96,8 +94,24 @@
                                 Swal.fire(data.Message);
                             }
                         },
-                        error: function () {
-                            toast.error("Ekleme esnasında bir hata Meydana geldi.")
+                        error: function (xhr) {
+
+                            var errors = JSON.parse(xhr.responseText);
+
+                            var errorMessages = '';
+                            $.each(errors.errors, function (key, value) {
+                                errorMessages +=  value +   '\n';
+                            });
+                             
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Başarısız İstek!',
+                                text: errorMessages,
+                                confirmButtonText: 'Tamam'
+                            }).then((result) => {
+                                window.location.href = '@(Url.Action("Create", "Personel"))';
+
+                            });
                         }
 
                     });
