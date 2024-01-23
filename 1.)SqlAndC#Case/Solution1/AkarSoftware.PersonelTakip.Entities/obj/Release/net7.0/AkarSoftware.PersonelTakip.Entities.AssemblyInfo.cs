@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AkarSoftware.PersonelTakip.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a56c14e24e1c50596b45cc10871cb7f58dd256ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AkarSoftware.PersonelTakip.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AkarSoftware.PersonelTakip.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
